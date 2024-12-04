@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #212529;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fafaf8;
+}
+
+/* Hero Section Styling */
+section.bg-dark {
+    background-color: #333 !important;
+    color: #fff;
+}
+
+section.bg-dark .btn {
+    font-size: 20px;
+    padding: 0.8rem 1.5rem;
+    margin: 5px;
+}
+
+/* About Section */
+#about h2 {
+    font-size: 40px;
+    color: #212529;
+}
+
+#about .lead {
+    font-size: 18px;
+    color: #555;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #343a40;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.skill-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.skill-category {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+}
+
+.skill-item {
+    font-size: 18px;
+    color: #f2a900;
+    padding: 2px 5px;
+    margin-bottom: 8px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 767px) {
+    .skill-category {
+        font-size: 20px;
+    }
+
+    .skill-item {
+        font-size: 16px;
+    }
+}
+
+
+
+/* Projects Section */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #212529;
+    color: #fff;
+}
+
+footer .form-control {
+    border: none;
+    border-radius: 5px;
+}
+
+footer .btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+footer .text-white {
+    color: #fff;
+}
+
+footer .text-white:hover {
+    color: #28a745;
+}
+
+footer .btn-primary:hover {
+    background-color: #218838;
+}
