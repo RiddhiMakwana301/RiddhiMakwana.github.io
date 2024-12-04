@@ -115,6 +115,20 @@ section.bg-dark .btn {
 .card-img-top {
     border-radius: 10px;
 }
+#projects .card {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    #projects .card-body {
+        text-align: center;
+    }
+    #projects .btn {
+        display: block;
+        margin: 10px auto;
+    }
+}
+
 
 /* Footer Section */
 footer {
